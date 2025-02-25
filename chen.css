@@ -1,0 +1,28 @@
+body{
+    display: flex;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    
+}
+
+.Logo {
+    width: 90px;
+    height: auto;
+}
+a{  
+    color: #073273;
+    text-decoration: none;
+}
+.nav-items {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: bolder;
+    font-size: 20px;
+    margin-right: 100px; /* Adjusted margin between links */
+    display: flex;
+    justify-content: end;
+}
